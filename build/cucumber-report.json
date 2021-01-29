@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-29T23:01:29.795Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2076000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.steps.CommonSteps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Navigate to goodRx page successfully",
+        "description": "",
+        "id": "feature-to-test-sanity-test;navigate-to-goodrx-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.steps.CommonSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I navigate to the \u0027GoodRx\u0027 website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I click on the \u0027search\u0027 field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I input data on \u0027input field\u0027",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click on \u0027search button\u0027",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test sanity test",
+    "description": "",
+    "id": "feature-to-test-sanity-test",
+    "keyword": "Feature",
+    "uri": "classpath:Features/Sanity.feature",
+    "tags": []
+  }
+]
