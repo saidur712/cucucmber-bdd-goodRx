@@ -1,5 +1,8 @@
 package cucumber.runner;
 
-public class SanityRunner {
+import io.cucumber.junit.CucumberOptions;
+
+@CucumberOptions(tags = "@sanity")
+public class SanityRunner extends AbstractRunner {
 
 }

@@ -1,5 +1,8 @@
 package cucumber.runner;
 
-public class DavRunner {
+import io.cucumber.junit.CucumberOptions;
+
+@CucumberOptions(tags = "@dev")
+public class DavRunner extends AbstractRunner {
 
 }
